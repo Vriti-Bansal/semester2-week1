@@ -13,5 +13,6 @@
 10. For each continent, calculate the total area, the total arable percentage, and the average birthrate for countries with a population greater than 10 million.
 
 ## Diagram
+#
 
 ![Database diagram of the Countries table.](database_diagram.png)
