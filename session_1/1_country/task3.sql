@@ -12,10 +12,13 @@
 
 -- write your sql code here
 
-SELECT * from countries;
 SELECT COUNT(Country) FROM countries;
 SELECT Continent,COUNT(Country) from countries GROUP BY Continent;
 SELECT Continent,SUM(Population) from countries GROUP BY Continent;
 SELECT Continent,AVG(GDPPerCapita) from countries group by Continent;
 SELECT Continent,COUNT(Country) from countries group by Continent HAVING COUNT(Country)>5;
 SELECT Continent,SUM(Population) from countries group by Continent having SUM(Population)>1000000000;
+SELECT Continent,Country,MAX(Population) from countries group by Continent;
+SELECT Continent,AVG(Population/AreaSQMi) As AvgDensity,MAX(Population),MIN(GDPPerCapita) from countries group by Continent;
+SELECT Continent,AVG(Population/AreaSQMi),GDPPerCapita from countries group by Continent having AVG(Population/AreaSQMi)>100 AND GDPPerCapita>5000;
+SELECT Continent,SUM(AreaSQMi),SUM(ArablePercent),Country,AVG(Birthrate) from countries WHERE Population>10000000 group by Continent;
