@@ -88,3 +88,4 @@ Note: you're going to have to do a little bit of research for this one as it use
 
 The library manager wants to understand which genres are performing best overall.
 They want to see the average rating for each genre in the database, with the highest-rated genres appearing first.
+#
