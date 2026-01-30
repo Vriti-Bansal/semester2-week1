@@ -13,7 +13,7 @@
 10. Show the 3 continents with the highest total population.
 11. Find the average population per continent, considering only countries with a population greater than 10 million.
 12. Find the average GDP per capita per continent, considering only countries where literacy is above 80%.
-13. For each continent, find the maximum birthrate of countries which an infant mortality below 30 per 1000 births.
+13. For each continent, find the maximum birthrate of countries whith an infant mortality below 30 per 1000 births.
 14. Find continents where the average GDP per capita is greater than 10,000, considering only countries with a literacy rate above 80%, and order the results from highest to lowest average GDP per capita.
 15. Find continents that have a total population greater than 500 million, but only include countries where the birthrate is below 20, order the results by total population (largest first), and limit the output to 3 results.
 

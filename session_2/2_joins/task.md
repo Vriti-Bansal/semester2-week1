@@ -1,6 +1,6 @@
 # Task 2
 
-## Exercises
+## Exercises#
 
 1. List all posts that have been deleted.
 2. List all users whose usernames begin with 'a'.
