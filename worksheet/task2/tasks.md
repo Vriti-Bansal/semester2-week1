@@ -48,5 +48,6 @@ Expected Columns:
 StudentId, FirstName, LastName, TotalCreditsPassed
 
 ## Diagram
+#
 
 ![Database diagram of the Student database.](student.png)
